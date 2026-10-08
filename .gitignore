@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+radial-study.log
+.pytest_cache/
+.idea/
+data/
+radial-study.log.*
+.ruff_cache/
+.claude/
+outputs/
+build/
+dist/
+release/
+*.egg-info/
+~$*.xlsx

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "example-abandon",
+      "prompt": "abandon\n/əˈbændən/  v.",
+      "options": [
+        {
+          "id": "A",
+          "text": "放弃；遗弃"
+        },
+        {
+          "id": "B",
+          "text": "记住；回忆"
+        },
+        {
+          "id": "C",
+          "text": "逃跑；逃脱"
+        }
+      ],
+      "correct_ids": [
+        "A"
+      ],
+      "extension": {
+        "type": "info",
+        "value": "abandon 表示放弃或遗弃。"
+      }
+    },
+    {
+      "id": "example-mammals",
+      "prompt": "Which are mammals?\n可多选",
+      "options": [
+        {
+          "id": "A",
+          "text": "鲸鱼"
+        },
+        {
+          "id": "B",
+          "text": "蝙蝠"
+        },
+        {
+          "id": "C",
+          "text": "鳄鱼"
+        },
+        {
+          "id": "D",
+          "text": "海豚"
+        },
+        {
+          "id": "E",
+          "text": "企鹅"
+        }
+      ],
+      "correct_ids": [
+        "A",
+        "B",
+        "D"
+      ],
+      "extension": {
+        "type": "info",
+        "value": "鲸鱼、蝙蝠和海豚是哺乳动物；鳄鱼是爬行动物，企鹅是鸟类。"
+      }
+    }
+  ]
+}
